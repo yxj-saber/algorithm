@@ -28,4 +28,14 @@
 
 ##### 1.5 案例研究：union-find算法
 
+- 1.5union-find
 
+  - 1.5.1quick-find
+
+  - 1.5.2quick-union
+
+  - 1.5.3weight-quick-union
+  
+  - 最优算法：路径压缩的加权quick-union算法
+
+- 1.5practice
