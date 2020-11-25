@@ -1,3 +1,8 @@
+import random
+
+from utlis import run_time
+
+
 class Insertion(object):
 
     @staticmethod
@@ -32,6 +37,7 @@ class Insertion(object):
                 return False
         return True
 
+    @run_time
     def sort(self, array):
         """
         对array进行升序排序
@@ -48,6 +54,8 @@ class Insertion(object):
 if __name__ == '__main__':
     insertion = Insertion()
     data = ['S', 'O', 'R', 'T', 'E', 'X', 'A', 'M', 'P', 'L', 'E']
-    print(data)
+    data = [random.randint(1, 100000) for i in range(10000)]
+    # print(data)
     insertion.sort(data)
-    print(data)
+    print(insertion.is_sorted(data))
+    # print(data)

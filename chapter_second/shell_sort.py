@@ -59,7 +59,8 @@ class Shell(object):
 if __name__ == '__main__':
     shell = Shell()
     # data = ['S', 'O', 'R', 'T', 'E', 'X', 'A', 'M', 'P', 'L', 'E']
-    data = [random.random() for i in range(100000)]
+    data = [random.randint(1, 100000) for i in range(10000)]
     # print(data)
     shell.sort(data)
+    print(shell.is_sorted(data))
     # print(data)

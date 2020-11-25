@@ -55,7 +55,7 @@ if __name__ == '__main__':
     selection = Selection()
     # data = ['S', 'O', 'R', 'T', 'E', 'X', 'A', 'M', 'P', 'L', 'E']
     # data = [random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for i in range(10000)]
-    data = [random.random() for i in range(100000)]
+    data = [random.randint(1, 100) for i in range(100000)]
     # print(data)
     selection.sort(data)
     # print(data)
