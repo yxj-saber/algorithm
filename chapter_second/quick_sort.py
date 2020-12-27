@@ -73,10 +73,10 @@ class Quick(object):
 
 if __name__ == '__main__':
     quick_sort = Quick()
-    data = ['S', 'O', 'R', 'T', 'E', 'X', 'A', 'M', 'P', 'L', 'E']
+    # data = ['S', 'O', 'R', 'T', 'E', 'X', 'A', 'M', 'P', 'L', 'E']
     # data = [random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for i in range(10000)]
-    # data = [random.random() for i in range(100000)]
-    print(data)
+    data = [random.random() for i in range(100000)]
+    # print(data)
     quick_sort.sort(data)
     print(quick_sort.is_sorted(data))
-    print(data)
+    # print(data)
